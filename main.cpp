@@ -18,19 +18,17 @@ using namespace std;
 
 int main()
 {
-    int v, a, r, p, h;
-    cin >> v >> a >> r >> p >> h;
-    int heights[4] = {v, a, r, p};
+    int n;
+    cin>>n;
 
-    // sortiting 
-    sort(heights, heights + 4, greater<int>());
-
-
-    if (heights[0] + heights[1] + heights[2] >= h) {
-        cout << "WAW" << endl;
-    } else {
-        cout << "AWW" << endl;
+    while (n--)
+    {
+        string name;
+        cin >> name;
+        cout << name << ": F" << endl;
     }
+    
+    
     
     return 0;
 }

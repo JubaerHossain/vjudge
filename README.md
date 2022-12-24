@@ -1,59 +1,31 @@
-Vincent Adultman and his three friends – Anthony Matureperson, Rene Grownindividual, and Pierre Grandhomme – want to ride a rollercoaster. However, only people who are at least hh inches can ride the rollercoaster.
+Bogart was disqualified because he did not follow the rules in the coolest online competition ever. He did not intend to cheat. He just did not know that what he was doing was against the rules. Because of this, he cannot join the coolest onsite competition this year. Bogart could have avoided being disqualified by reading the rules of the coolest online competition ever, which is accessible in https://noi.ph/rules.
 
-Vincent's height is vv inches, Anthony's height is aa inches, Rene's height is rr inches, and Pierre's height is pp inches.
-
-Vincent and his friends know that at most three of them can stand on top of each other to "form" a taller "person". The height of this "person" is the height of the three children combined.
-
-Can they choose a set of three people among themselves so that the "person" those three people form can ride the rollercoaster?
+Bogart is sad because of his disqualification. His friends in his chat group try to console him by saying "F" to pay respects. The message "F" was mentioned nn consecutive times in the chat room, where nn is a positive integer. It was said by his various friends with various usernames.
 
 Input
-The input consists of five lines.
-
-The first line contains a single integer vv.
-
-The second line contains a single integer aa.
-
-The third line contains a single integer rr.
-
-The fourth line contains a single integer pp.
-
-The fifth line contains a single integer hh.
+The first line of input contains nn, the number of Bogart's friends. Each of the next nn lines contains the username of one of Bogart's friends. Each username will contain only uppercase letters, lowercase letters, digits, and/or underscore ("_") characters.
 
 Output
-Output a single line containing a single string which is WAW if they can choose a set of three people among themselves so that the "person" formed by those three people can ride the rollercoaster, or AWW if they cannot.
+Output the chatroom after all Bogart's friends said "F" to pay respects, in the order they were mentioned in the input. For each friend, output that friend's username, a colon, a space, and the letter F, in that order, each in its own line.
 
 Scoring
-12 \le v, a, r, p, h \le 15012≤v,a,r,p,h≤150
+Each username consists of at least 1 and at most 12 characters.
 
-Subtask 1 (50 points):
+Bogart's friends have distinct usernames.
 
-v = a = r = pv=a=r=p
+Subtask 1 (20 points): n = 5n=5
 
-Subtask 2 (50 points):
+Subtask 2 (20 points): 1 \le n \le 1001≤n≤100
 
-No additional constraints.
+Subtask 3 (60 points): 1 \le n \le 10^51≤n≤10 
+5
+ 
 
 Sample 1
 Inputcopy	Outputcopy
-20
-20
-20
-20
-61
-AWW
-Sample 2
-Inputcopy	Outputcopy
-24
-55
-42
-69
-143
-WAW
-Note
-In the first sample test case, Vincent's height is 2020 inches, Anthony's height is 2020 inches, Rene's height is 2020 inches, and Pierre's height is 2020 inches. Also, only people who are at least 6161 inches can ride the rollercoaster.
-
-There is no way to choose a set of three people among themselves so that the "person" those three people form can ride the rollercoaster, so the answer is AWW.
-
-In the second sample test case, Vincent's height is 2424 inches, Anthony's height is 5555 inches, Rene's height is 4242 inches, and Pierre's height is 6969 inches. Also, only people who are at least 143143 inches can ride the rollercoaster.
-
-Vincent, Pierre, and Anthony can form a "person" with height 24 + 69 + 55 = 14824+69+55=148 inches and this "person" can ride the rollercoaster, so the answer is WAW.
+5
+hunter2
+kevin
+payton
+alvin
+BeRtO
